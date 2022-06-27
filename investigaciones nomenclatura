@@ -1,0 +1,54 @@
+VARIABLES EN PYTHON
+Variables en Python siguen la nomenclatura estandar de un nombre que comienza alfanumerico en una letra o un guión.
+Los nombres de variables distinguen entre mayusculas y minusculas. 
+Las variables no necesitan ser declaradas y sus tipos de datos se infieren de la instrucción de asignacion.
+
+Variables Ambiente:  La mayoria de las variables en Python son locales en el ambito de su propia funcion o clase. Por ejemplo, si se define a = 1 dentro de una funcion,
+y luego a estará disponible dentro de esa función entera pero no estara definido en el programa principal que llama a la funcion. 
+Las variables definidas en el programa principal son accesibles para el programa principal, pero no dentro de las funciones llamadas por el programa principal. 
+
+Variables Globales:  variables globales, sin embargo, se pueden declarar con la palabra clave  global  
+a = 1
+b = 2
+def Sum():
+   global a, b
+   b = a + b
+Sum()
+print(b)
+-> 3
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+ VARIABLES EN C++
+ 
+ Los nombres utilizados para las variables tienen que ser autoexplicativos. De manera que en el propio nombre esté la indicación del uso o finalidad de las variables.
+
+Para componer los nombres de las variables se utilizarán principalmente sustantivos, pudiendo calificarse con adjetivos.
+Esta norma se establece para mejorar la identificación de los distintos componentes de un sistema.
+
+Una práctica muy habitual es utilizar una serie de prefijos para poder identificar el tipo de variable de una forma sencilla y rápida
+por ejemplo:
+void, prefijo : v ----- vVariableVacia;
+int, prefijo : n ------ nNumero
+enum (enumeraciones), prefijo:	e	-----EBoole eResultado;
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+VARIABLES EN JAVASCRIPT
+Utiliza variables como nombres simbólicos para valores en tu aplicación. Los nombres de las variables, llamados identificadores, se ajustan a ciertas reglas.
+
+Un identificador de JavaScript debe comenzar con una letra, un guión bajo (_) o un signo de dólar ($). Los siguientes caracteres también pueden ser dígitos (0-9).
+
+Dado que JavaScript distingue entre mayúsculas y minúsculas, las letras incluyen los caracteres "A" a "Z" (mayúsculas), así como "a" a "z" (minúsculas).
+
+Se puede utilizar la mayoría de las letras ISO 8859-1 o Unicode como å y ü en los identificadores.
+
+también se puede usar Secuencias de escape Unicode como caracteres en identificadores.
+
+Algunos ejemplos de nombres legales son Number_hits, temp99, $credit y _name.
+
+se puede declarar una variable de dos formas:
+
+Con la palabra clave var. Por ejemplo, var x = 42. Esta sintaxis se puede utilizar para declarar variables locales y globales, dependiendo del contexto de ejecución.
+Con la palabra clave const o let. Por ejemplo, let y = 13. Esta sintaxis se puede utilizar para declarar una variable local con ámbito de bloque
+También se puede simplemente asignar un valor a una variable. Por ejemplo, x = 42. Este formulario crea una variable global no declarada. 
+También genera una advertencia estricta de JavaScript. Las variables globales no declaradas a menudo pueden provocar un comportamiento inesperado. 
+Por lo tanto, se desaconseja utilizar variables globales no
